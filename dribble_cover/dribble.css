@@ -4,6 +4,7 @@
     height: 9%;
     width: 6%;
     margin-left: 80px;        
+    margin-top: 50px;
 }
 
 ul {
@@ -37,13 +38,6 @@ ul li a:hover {
   color:black;
 }
 
-/*.con{    
-    position: absolute;
-    margin-left: 1350px;
-    border-bottom:1px solid gray;
-    padding-bottom:4px;
-}*/
-
 input{
     margin-top: 20px;
     position: absolute;
@@ -51,8 +45,7 @@ input{
     display: flex;    
     padding-bottom:4px;
     border: 0px;    
-    text-decoration:underline; 
-    border-bottom: 1px solid black;    
+    text-decoration:underline;     
 }
 
 button{
@@ -74,6 +67,8 @@ button{
     width: 90%;
     margin-top: 20px;
     margin-left: 80px;
+    margin-right: 100px;
+    border: 2px solid black;
 }
 
 section{
@@ -87,7 +82,8 @@ section .itemLeft{
     height: 100%;
     width: 40%;
     margin-left: 80px;
-    margin-top: 20px;
+    margin-top: 150px;
+    border: 1px solid black;
 }
 
 section .itemRight{
@@ -95,25 +91,32 @@ section .itemRight{
     flex: 1;
     text-align: left;
     font-size: 30px;
-    margin-top: 100px;
+    margin-top: 200px;    
+    word-break:break-all
 }
 
 .bigfont{
     font-size: 30px;    
+    margin-top: 50px;
 }
 
 .smallfont{
     font-size: 15px;    
+    
 }
 
 .price{
     display: flex;
+    margin-top: 200px;
+    word-break:break-all
 }
 
 .ori{
     flex: 1;
     color: gray;
     font-size: 20px;
+    margin-top: 50px;
+    word-break:break-all
 }
 
 .discount{
@@ -122,6 +125,8 @@ section .itemRight{
     font-size: 20px;
     position: absolute;
     left: 60%;
+    margin-top: 50px;
+    word-break:break-all
 }
 
 .buyit{
@@ -131,13 +136,15 @@ section .itemRight{
     width: 200px;
     height: 5%;
     background-size: cover;    
+    
+
 }
 
 section .displayLeft{
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 80px;
-    flex: 1;
-    
+    flex: 1;        
+    word-break:break-all
 }
 
 section .displayRight{
@@ -145,6 +152,11 @@ section .displayRight{
     background: url("disright.jpg");
     background-size: cover;
     height: 410px;
-    width: 80px;        
+    width: 80px;  
+    text-align: center;   
+    margin-top: 100px;   
+    margin-right: 100px;
+    margin-left: 80px;
+    border: 2px solid black;
 }
 
